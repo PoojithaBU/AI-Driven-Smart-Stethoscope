@@ -6,7 +6,7 @@ export default function App() {
   const [input, setInput] = useState("");
   const messagesEndRef = useRef(null);
 
-  const API_KEY = "AIzaSyCJNE-YZoyPC7h6BPUQo005O_no4bVn0GM";
+  const API_KEY = "***********************";
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
